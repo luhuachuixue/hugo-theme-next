@@ -1,0 +1,12 @@
+name = "NexT Hugo Theme"
+license = "MIT"
+licenselink = "https://github.com/luhuachuixue/hugo-theme-next/blob/master/LICENSE"
+description = "A theme forked from elkan1788/hugo-theme-next which is ported from iissnan/hexo-theme-next"
+homepage = "https://github.com/luhuachuixue/hugo-theme-next"
+tags = ["website", "blog", "Hugo", "NexT"]
+features = ["post", "shortcodes", "tag cloud", "3d map", "local search", "comments"]
+min_version = "0.1.0"
+
+[author]
+    name = "luhuachuixue"
+    homepage = "https://luhuachuixue.cf"

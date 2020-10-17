@@ -1,0 +1,123 @@
+baseURL = "https://luhuachuixue.cf"
+title = "偏隅"
+theme = "next"
+
+hasCJKLanguage = true
+languageCode = "zh-CN"
+defaultContentLanguage = "zh"
+
+enableGitInfo = false
+enableEmoji = true
+enableRobotsTXT = true
+enableInlineShortcodes = true
+disablePathToLower = false
+paginate = 8
+metaDataFormat = "yaml"
+preserveTaxonomyNames = false
+
+[author]
+  name = "luhuachuixue"
+
+[sitemap]
+  fileName = "sitemap.xml"
+  changeFreq = "weekly"
+  priority = 0.5
+
+[permalinks]
+  post = "/post/:slug"
+  posts = "/posts/:slug"
+  # post = "/:year/:month/:title"
+  # posts = "/:year/:month/:title"
+
+## 压缩开关
+[minify]
+  disableCSS = false
+  disableHTML = false
+  disableJS = false
+  disableJSON = false
+  disableSVG = false
+  disableXML = false
+  minifyOutput = true
+
+[markup]
+  [markup.highlight]
+    style = "monokai"
+    noClasses = true
+    codeFences = true
+    guessSyntax = true
+    anchorLineNos = true
+    lineNumbersInTable = true
+    lineNos = true
+    lineNoStart = 1
+    tabWidth = 4
+  [markup.tableOfContents]
+    startLevel = 2
+    endLevel = 3
+    ordered = false
+  [markup.goldMark.renderer]
+    unsafe = true
+
+[params]
+  subTitle = "八目七证"
+  introduce = "知行合一"
+  description = "luhuachuixue | 博客 | 开发"
+  keywords = "luhuachuixue,博客,程序员,分享"
+  authorImg = "/img/avatar.jpg"
+  imgLogo = "/img/logo.png"
+  dateFormat = "2006-01-02"
+  yearFormat = "2006年"
+  monthFormat = "01-02"
+  fancyBox = true
+  ## 开启BShare分享功能
+  share = "bshare"
+  shareId = ""
+  ## 开启3D访问地球
+  # revolverMapId = "5b4f2ucxar6" # from xtfly/hugo-theme-next
+  revolverMapId = "5s83wolvn69" # from elkan1788/hugo-theme-next
+  ## 开启标签云
+  tagCloud = true
+  ## 开启评论功能[Valine, LiveRe]
+  comment = "Valine"
+  LCAppId  = ""
+  LCAppKey = ""
+  LCServer = ""
+  # LiveReId = ""
+  ## 开启站点访问统计代码
+  BusuanziCounter = false
+  # CNZZSiteId = ""
+  BaiduSiteId = ""
+  GoogleSiteId = ""
+
+[[menu.main]]
+  name = "首页"
+  pre = "home"
+  URL = "/"
+  weight = 1
+[[menu.main]]
+  name = "归档"
+  pre = "archive"
+  URL = "/post/"
+  weight = 2
+[[menu.main]]
+  name = "关于"
+  pre = "user"
+  URL = "/about/"
+  weight = 3
+
+## 个人社交平台
+[[params.socials]]
+  Name = "GitHub"
+  Icon = "github"
+  URL = "https://github.com/luhuachuixue"
+[[params.socials]]
+  Name = "知乎"
+  Icon = "globe"
+  URL = "https://www.zhihu.com/people/luhuachuixue"
+
+## 友情链接
+[[params.links]]
+  Name = "同站导航1"
+  Permalink = "https://luhuachuixue.tk"
+[[params.links]]
+  Name = "同站导航2"
+  Permalink = "https://luhuachuixue.ml"

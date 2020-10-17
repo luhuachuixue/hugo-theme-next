@@ -1,0 +1,20 @@
+<div class="reward-qr-info">
+  <div>放还是要放的🐶🐶🐶，万一有大佬愿意请我喝茶呢🍵🍵🍵</div>
+  <button id="rewardButton" disable="enable" onclick="var qr = document.getElementById('QR'); if (qr.style.display === 'none') {qr.style.display='block';} else {qr.style.display='none'}">
+    <span>请我喝茶</span>
+  </button>
+  <div id="QR" style="display: none;">
+    <div id="qq" style="display: inline-block">
+      <img id="qq_qr" src="/img/qq-pay.png" alt="QQ Pay"/>
+      <p>QQ</p>
+    </div>
+    <div id="wechat" style="display: inline-block">
+        <img id="wechat_qr" src="/img/wechat-pay.png" alt="WeChat Pay"/>
+        <p>微信</p>
+    </div>
+    <div id="alipay" style="display: inline-block">
+        <img id="alipay_qr" src="/img/ali-pay.png" alt="Alipay"/>
+        <p>支付宝</p>
+    </div>
+  </div>
+</div>
