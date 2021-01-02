@@ -41,7 +41,7 @@ preserveTaxonomyNames = false
 
 [markup]
   [markup.highlight]
-    style = "monokai"
+    style = "dracula"
     noClasses = true
     codeFences = true
     guessSyntax = true
